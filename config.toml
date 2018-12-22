@@ -49,3 +49,10 @@ disqusShortname = "romant"
   [[params.social]]
     name = "linkedin"
     url = "https://linkedin.com/in/tarnavski"
+
+[menu]
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 10
