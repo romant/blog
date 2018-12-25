@@ -7,10 +7,14 @@ dsq_thread_id:
   - '3171702589'
 format: image
 id: 1256
-image: /wp-content/uploads/2014/10/i-robot-2004-42-g1.jpg
+image: /images/2014/10/i-robot-2004-42-g1.jpg
 permalink: /reflection/mba/business-school-foie-gras-factory-part-1/
 title: Is a Business School, a foie gras Factory?
+description : "the pursuit of an MBA reveals a hidden lesson in the corporate education schemes"
 url: /2014/10/30/business-school-foie-gras-factory-part-1/
+tags:
+  - mba
+  - study
 ---
 
 ## Situation

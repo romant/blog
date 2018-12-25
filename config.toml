@@ -10,6 +10,7 @@ copyright = "This work is licensed under a Attribution-NonCommercial-ShareAlike 
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 googleAnalytics = "UA-591321-1"
 disqusShortname = "romant"
+enableRobotsTXT = true
 
 [author]
   name = "Roman Tarnavski"

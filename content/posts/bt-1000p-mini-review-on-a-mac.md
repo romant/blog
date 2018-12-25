@@ -16,7 +16,8 @@ tags:
   - SONY GPS-CS1
   - Wintec WBT-100
 title: BT-1000P mini-review on a mac
-url: /2008/06/12/bt-1000p-mini-review-on-a-mac/
+description: After looking at the Sony GPS-CS1, Wintec WBT-100 and GlobalSat DG-100, I concluded that the BT-1000P is by far the best unit for my needs.
+image: /images/2008/06/bt-1000p-4.jpg
 ---
 
 Am soon going away on a little trip, over to Europe, through Tokyo. Wishing to record my trip, as well as have some data for geocoding the photos, I went on a quest to find a GPS unit that allowed me to:
