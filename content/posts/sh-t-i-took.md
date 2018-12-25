@@ -5,7 +5,6 @@ categories:
 date: 2011-09-14 08:22:40
 dsq_thread_id:
   - '413817782'
-guid: http://blog.romant.net/?p=871
 tags:
   - gear
   - paranoia
@@ -95,7 +94,7 @@ Here’s the complete list of the crap thats coming with me. Most is self-explan
   * 1 x USB->RJ45 (Ethernet adapter for the MBA)
   * 1 x iPhone cable
   * Headlamp
-  * 3 x BL-5c, GPS Logger QStar BT-1000P - [reviewed it here](http://blog.romant.net/technology/fantastic-gps-logger-a-field-report-for-bt-1000p/)
+  * 3 x BL-5c, GPS Logger QStar BT-1000P - [reviewed it here]({{< ref "a-field-report-for-bt-1000p.md" >}})
   
 ### Batteries
   * 4 x Canon Batteries, LP-E6
