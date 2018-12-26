@@ -49,9 +49,7 @@ enableRobotsTXT = true
     name = "linkedin"
     url = "https://linkedin.com/in/tarnavski"
 
-[menu]
-
   [[menu.main]]
-    name = "Blog"
+    name = "Archive"
     url = "/posts/"
     weight = 10
