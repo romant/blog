@@ -24,12 +24,18 @@ In order to demonstrate to some customers, partners and colleagues that haven't 
 
 #### Direct Network
 
-This is by far the most … straight forward way of providing your VM's with an outside connection. [vCloud Director Networking : Part 1 : Direct External](http://vimeo.com/18452797)
+This is by far the most … straight forward way of providing your VM's with an outside connection.
+
+{{< vimeo 18452797 >}}
 
 #### Routed Network
 
-The elegance of vShield Edge allows you to configure DHCP, Firewall, and NAT IP Mapping through an easy to click-through UI. Be it for your Organization or vApp. Here I'll show you how to setup a NAT-Routed vShield backed internal network. [vCloud Director Networking : Part 2 : NAT-Routed](http://vimeo.com/18452976)
+The elegance of vShield Edge allows you to configure DHCP, Firewall, and NAT IP Mapping through an easy to click-through UI. Be it for your Organization or vApp. Here I'll show you how to setup a NAT-Routed vShield backed internal network.
+
+{{< vimeo 18452976 >}}
 
 #### Custom'ish vApp Network
 
-There are environments that have already invested a lot in customizing their own DHCP server rules, Dynamic DNS registrations, reverse lookups, firewalls… the list goes on. In essence, here I can show you how you can re-use your current soft-router, and have it used within the vCloud realm. [vCloud Director Networking : Part 3 : Custom Routing Appliance in a vApp](http://vimeo.com/18453095)
+There are environments that have already invested a lot in customizing their own DHCP server rules, Dynamic DNS registrations, reverse lookups, firewalls… the list goes on. In essence, here I can show you how you can re-use your current soft-router, and have it used within the vCloud realm.
+
+{{< vimeo 18453095 >}}

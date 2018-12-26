@@ -20,7 +20,7 @@ I wanted to learn more about how vShield Edge + Manager appliance works under th
 
 Initially started writing this as a static blog-post, unfortunately too many screenshots + and explanations would be required. Hence I simply recorded some of the steps.
 
-[Enabling SSH in vShield Edge](http://vimeo.com/18527859)
+{{< vimeo 18527859 >}}
 
 # Caveats
 
