@@ -10,6 +10,8 @@ tags:
   - storage
 title: Measuring NAND Longevity
 url: /2012/03/03/measuring-nand-longevity/
+categories : 
+- technology
 ---
 
 No secret that NAND/Flash/SSD drives are fundamentally different to their spinning cousins. Yet given the relative lack of high-visibility maturity of NAND technologies within the enterprise, adoption of standards has yet to proliferate. Specifically around the determination of failure rate.

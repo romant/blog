@@ -1,17 +1,17 @@
 ---
 author: Roman Tarnavski
 categories:
-  - mba
+  - other
 date: 2014-10-30 17:39:49
 dsq_thread_id:
   - '3171702589'
 format: image
 id: 1256
 image: /images/2014/10/i-robot-2004-42-g1.jpg
-permalink: /reflection/mba/business-school-foie-gras-factory-part-1/
+permalink: /reflection/mba/business-school-foie-gras-factory/
 title: Is a Business School, a foie gras Factory?
 description : "the pursuit of an MBA reveals a hidden lesson in the corporate education schemes"
-url: /2014/10/30/business-school-foie-gras-factory-part-1/
+url: /2014/10/30/business-school-foie-gras-factory/
 tags:
   - mba
   - study
@@ -19,6 +19,8 @@ tags:
 
 ## Situation
 Aside from Betteridge’s law for the headline, one of the reasons for which I embarked on pursuing an Executive MBA is that I wanted to bridge my engineering and technical background with that of commerce, economics, corporate finance, considerations for strategy and its implications on building an enterprise; ‘the business fruit salad’ … I wanted to learn.
+
+![](/images/2014/10/i-robot-2004-42-g1.jpg)
 
 Having now completed a few courses, for me, the old adage of “perception equals reality” is not a truism across all courses (more on this next time). I will preface that the following experiential verbiage may be different to that of other schools, but anecdotally via colleagues, friends, and people that I met whilst studying on planes and airport lounges that offered their advice / experience — the issues am about to describe are de rigueur for an MBA education here in Australia.
 
@@ -48,6 +50,3 @@ After a heated exchange, I was unequivocally told that the :
 > purpose of the class is not to view and analyse existing and possible future approach to business thinking, but to “enable me to pass the exam”. 
 
 Surprised, I asked whether “…this is an educational facility, or a business of generating tick-box MBA’s”. Perhaps naïve, or marketed-to well, I wholeheartedly hoped it was the former, but the lack of an audible response and a stern gaze from the facilitator clearly signalled otherwise.
-
-END OF PART 1
-

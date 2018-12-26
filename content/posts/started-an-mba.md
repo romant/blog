@@ -1,7 +1,7 @@
 ---
 author: Roman Tarnavski
 categories:
-  - mba
+  - other
 date: 2013-10-20 00:00:13
 dsq_thread_id:
   - '1875575377'

@@ -1,7 +1,7 @@
 ---
 author: Roman Tarnavski
 categories:
-  - reflection
+  - workplace
 date: 2011-06-24 23:28:01
 dsq_thread_id:
   - '341180654'
