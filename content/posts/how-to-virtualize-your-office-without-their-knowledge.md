@@ -7,7 +7,6 @@ dsq_thread_id:
   - '75453388'
 id: 215
 title: How to virtualize your office - without their knowledge
-url: /2009/07/25/how-to-virtualize-your-office-without-their-knowledge/
 ---
 
 People complain that they don't have enough machines, and when they need servers, they're available. Two of the problems that were prevalent in my workplace. I set out to attempt to rectify this by firstly measuring the utilization rate on some of our busiest servers.

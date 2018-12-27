@@ -8,12 +8,10 @@ dsq_thread_id:
 excerpt: Service providers have a long way to go before they can use Cloud to aid an enterprise to scale.
 guid: http://blog.romant.net/?p=655
 id: 655
-permalink: /reflection/why-enterprises-arent-ready-for-cloud/
 tags:
   - cloud
   - enterprise
 title: Why Enterprises aren't ready for Cloud
-url: /2011/06/13/why-enterprises-arent-ready-for-cloud/
 ---
 
 According to IDC, the mere growth of virtual private cloud services by 2014, will be in excess of 230% from a base of 2010, or be worth $46USD billion as an industry. This referring to the homogeneous, logical environment that will span public + private and be isolated for an organisation. Of the current public cloud providers supporting this, how many can actually take your existing environment and extend it into their own to allow you to use their capacity as needed?

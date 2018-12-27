@@ -15,7 +15,6 @@ tags:
   - 40D
   - 50mm 1.8 II
 title: Canon EOS 40D - mini Review + Problems
-url: /2007/09/01/canon-eos-40d-mini-review-problems/
 ---
 
 Am a happy owner of the Canon 40D.

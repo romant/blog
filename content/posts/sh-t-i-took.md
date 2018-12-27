@@ -11,7 +11,6 @@ tags:
   - trekking
   - travel
 title: Sh-t I took
-url: /2011/09/14/sh-t-i-took/
 ---
 
 <figure>

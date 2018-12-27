@@ -9,7 +9,6 @@ tags:
   - ssd
   - storage
 title: Measuring NAND Longevity
-url: /2012/03/03/measuring-nand-longevity/
 categories : 
 - technology
 ---

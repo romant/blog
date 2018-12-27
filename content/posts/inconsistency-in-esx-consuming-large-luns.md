@@ -13,7 +13,6 @@ tags:
   - storage
   - vmware
 title: Inconsistency in ESX consuming large LUNs
-url: /2010/01/24/inconsistency-in-esx-consuming-large-luns/
 ---
 
 … go with me here. 

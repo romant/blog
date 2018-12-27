@@ -7,9 +7,7 @@ dsq_thread_id:
   - '269082434'
 excerpt: an abstraction of abstractions (even from definitions), we soon realise that apps written for tomorrows consumption don't have to be tied to processor architecture or even a specific OS to run
 guid: http://blog.romant.net/?p=636
-permalink: /technology/a-prediction/
 title: A prediction . . .
-url: /2011/04/02/a-prediction/
 ---
 
 

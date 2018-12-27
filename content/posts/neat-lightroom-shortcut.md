@@ -11,7 +11,6 @@ tags:
   - osx
   - shortcut
 title: Neat Lightroom Shortcut
-url: /2008/03/17/neat-lightroom-shortcut/
 ---
 
 Ever wanted to hide the left+right pane's within Lightroom without having either custom defined shortcuts, or modifying OS X keyboard preferences to enable function keys?

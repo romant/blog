@@ -12,7 +12,6 @@ tags:
   - 40D
   - Lightroom
 title: ACR 4.2 Released and now Lightroom 1.2
-url: /2007/09/14/acr-42-released-and-no-a-glimpse-of-lightroom-12/
 ---
 
 Many souls weren't happy that Adobe didn't support Canon's 40D when they got it, in ACR and consequently in Lightroom.

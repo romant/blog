@@ -8,13 +8,11 @@ dsq_thread_id:
 excerpt: A look at the structure of an OVA+OVF and how to deploy a vApp on a single host without vCenter.
 guid: http://blog.romant.net/?p=477
 id: 477
-permalink: /technology/unsupported-element-virtualsystemcollection-how-to-split-an-ova/
 tags:
   - ova
   - ovf
   - vmware
 title: Unsupported element 'VirtualSystemCollection' + how to split an OVA
-url: /2010/07/11/unsupported-element-virtualsystemcollection-how-to-split-an-ova/
 ---
 
 A colleague recently stumbled upon this beautiful error when trying to import an OVA to an ESX and ESXi host:

@@ -8,13 +8,10 @@ dsq_thread_id:
 excerpt: Always have a backup, especially for a presentation. A quick tale of my unfortunate experience with mobile connectivity and remote facilities.
 guid: http://blog.romant.net/?p=690
 id: 690
-image: /wp-content/uploads/2011/06/roman_tarnavski_emc_inform.jpg
-permalink: /reflection/presentation-blues/
 tags:
   - presenting
   - workplace
 title: Presentation Blues
-url: /2011/06/24/presentation-blues/
 ---
 
 ![](/images/2011/06/roman_tarnavski_emc_inform.jpg)

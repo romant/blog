@@ -12,7 +12,6 @@ tags:
   - vmware
   - vsphere client
 title: vSphere Client - Unexpected end of file has occurred
-url: /2009/08/23/vsphere-client-unexpected-end-of-file-has-occurred/
 ---
 
 In the unfortunate scenario that the machine you use to run your vSphere client ever crashes (unfortunately VMware doesn't make an OSX Client), you may wish to start up the client, and click the performance tab. You may be greeted with the following when selecting the "Performance" tab:

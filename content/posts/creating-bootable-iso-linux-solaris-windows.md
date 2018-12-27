@@ -14,7 +14,6 @@ tags:
   - solaris
   - windows
 title: 'Creating bootable ISO : Linux, Solaris, Windows'
-url: /2010/05/31/creating-bootable-iso-linux-solaris-windows/
 ---
 
 Whenever you're automating OS deployments, you will at one point require to build a custom ISO, with your own kickstart, jumpstart or an OEM folder with apps and instructions to boot.

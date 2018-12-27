@@ -11,7 +11,6 @@ tags:
   - Lightroom
   - rotate
 title: Canon 40D + Lightroom Auto-Rotate
-url: /2007/09/01/canon-40d-lightroom-auto-rotate/
 ---
 
 Cameras these days record the orientation of the camera when you take a shot, and write this into EXIF which is embedded into the photo. There seems to be a new way in which the 40D does it.![Adobe Lightroom 40D Auto rotate](/images/2007/09/lightroom-import-40d.jpg)

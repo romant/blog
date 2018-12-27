@@ -7,13 +7,13 @@ dsq_thread_id:
   - '402945756'
 guid: http://blog.romant.net/?p=829
 id: 829
-image: /wp-content/uploads/2011/08/planning.png
-permalink: /travel/sa2011/out-of-office/
+image: /wp-content/uploads/
 tags:
   - packing
 title: Out of Office
-url: /2011/09/03/out-of-office/
 ---
+
+![](/images/2011/08/planning.png)
 
 I love to travel.
 

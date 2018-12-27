@@ -8,14 +8,12 @@ dsq_thread_id:
 excerpt: A tutorial on how to configure NAT within VMware ESX and ESXi
 guid: http://blog.romant.net/?p=447
 id: 447
-permalink: /technology/configuring-nat-on-esx-and-esxi/
 tags:
   - esx
   - esxi
   - nat
   - vmware
 title: Configuring NAT on ESX and ESXi
-url: /2010/07/11/configuring-nat-on-esx-and-esxi/
 ---
 
 ESX doesn't have NAT inbuilt, so here's how to configure it with the help of a VMware appliance called [pfSense](http://www.pfsense.com/) (an Open Source firewall/router).

@@ -13,7 +13,6 @@ tags:
   - GPSPhotoLinker
   - Lightroom
 title: Fantastic GPS Logger, a Field Report for BT-1000P
-url: /2008/08/15/fantastic-gps-logger-a-field-report-for-bt-1000p/
 ---
 
 To add to the ever increasing arsenal of gadgets to never leave at home, comes the BT-1000P GPS Logger.

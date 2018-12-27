@@ -13,7 +13,6 @@ tags:
   - esx
   - vmware
 title: VMWare Converter fails to publish a split-sparse image to ESX
-url: /2009/04/20/vmware-converter-fails-to-publish-a-split-sparse-image-to-esx/
 ---
 
 ```

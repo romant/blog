@@ -7,12 +7,10 @@ dsq_thread_id:
   - '16198411'
 guid: http://www.romant.net/?p=184
 id: 184
-permalink: /technology/empty-iphone-emails-solved/
 tags:
   - apple
   - iphone
 title: Empty iPhone Emails - Solved
-url: /2008/08/25/empty-iphone-emails-solved/
 ---
 
 iPhones Firmware update 2.1, seems to have gotten rid of the problem. If now only Apple would fix the damn [calendar bug](http://twitter.com/romant/statuses/918985782)

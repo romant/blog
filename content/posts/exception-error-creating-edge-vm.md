@@ -8,7 +8,6 @@ dsq_thread_id:
 excerpt: Upon trying to create a Routed network within vCD, you can be faced with a "Error creating Edge VM" message. If you look within the debug logs, the stack-trace will look something like
 guid: http://blog.romant.net/?p=561
 id: 561
-permalink: /technology/exception-error-creating-edge-vm/
 tags:
   - network
   - vcd
@@ -16,7 +15,6 @@ tags:
   - vmware
   - vshield
 title: 'Exception: Error creating Edge VM'
-url: /2011/01/06/exception-error-creating-edge-vm/
 ---
 
 Upon trying to create a NAT-Routed network within vCD, you can be faced with a 

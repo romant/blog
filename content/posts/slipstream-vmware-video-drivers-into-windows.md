@@ -8,7 +8,6 @@ dsq_thread_id:
 excerpt: Where to find and how to slipstream just the video drivers from VMware Tools into Windows.
 guid: http://blog.romant.net/?p=380
 id: 380
-permalink: /technology/slipstream-vmware-video-drivers-into-windows/
 tags:
   - driver
   - nlite
@@ -18,7 +17,6 @@ tags:
   - vmware
   - vmx_svga.sys
 title: Slipstream VMware Video Drivers into Windows
-url: /2010/05/09/slipstream-vmware-video-drivers-into-windows/
 ---
 
 Am currently working on automating WebSphere Portal install on Windows. I do not want Windows restarting the first time it comes up, whether its for installing VMware Tools, or any of its drivers. 

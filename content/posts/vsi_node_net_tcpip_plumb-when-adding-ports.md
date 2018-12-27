@@ -4,7 +4,6 @@ categories:
   - technology
 date: 2010-06-05 08:50:32
 excerpt: A simple solution to being unable to add another interface to a vSwitch due to a SysinfoException.
-permalink: /technology/vsi_node_net_tcpip_plumb-when-adding-ports/
 tags:
   - bad0017
   - esx
@@ -14,7 +13,6 @@ tags:
   - vsphere
   - vswitch
 title: VSI_NODE_net_tcpip_plumb when adding Ports
-url: /2010/06/05/vsi_node_net_tcpip_plumb-when-adding-ports/
 ---
 
 <figure>

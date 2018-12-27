@@ -9,14 +9,12 @@ dsq_thread_id:
 excerpt: Lion Disk Encryption more than twice as fast as PGP WDE.
 guid: http://blog.romant.net/?p=623
 id: 623
-permalink: /technology/pgp-wde-vs-lion-disk-encryption/
 tags:
   - filevault 2
   - lion
   - mac
   - pgp
 title: PGP WDE vs. Lion Disk Encryption
-url: /2011/03/05/pgp-wde-vs-lion-disk-encryption/
 ---
 
 Beyond the veil of security, and sense of calm I get when leaving my laptop in the car or airport lobbies; the next most important thing to me is performance (after all, running my VMware lab on a laptop with a single drive isn't exactly cheap). Thus mid last year I invested in a 240 GB OCZ Vertex 2 SSD drive, to run inside my i7 MBP. Encrypting your drive absolutely kills performance, so I did some very un-scientific tests today upon my upgrade to Lion that I wish to share. Below are several Xbench results for HDD performance only, covering 'fresh' HDD, and encrypted. Within Snow Leopard (10.6) with PGP WDE, and in Lion (10.7) with the inbuilt Disk Encryption.  

@@ -12,7 +12,6 @@ tags:
   - dns
   - vshield
 title: Extending vShield
-url: /2011/02/13/extending-vshield/
 ---
 
 ![](/images/2011/02/stickman_puzzle.jpg)

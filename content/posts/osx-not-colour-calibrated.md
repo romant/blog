@@ -21,7 +21,6 @@ tags:
   - osx
   - review
 title: OSX Not Colour Calibrated
-url: /2008/03/20/osx-not-colour-calibrated/
 ---
 
 It seems that Apple left one thing out of the equation for Safari 3.1 - colour adherence. With my new Dell 2408WFP, I was getting quite stroppy - as no matter how many times I would calibrate it - it would continually not show the correct colours as compared to my MacBook Pro screen [matte] - or so it seemed. I initially posted two photos on DPreview hoping to ascertain some unknown out of the crown. Here is the MacBook Pro screen with the 'correct' colour.

@@ -13,7 +13,6 @@ tags:
   - vcloud
   - vmware
 title: vCloud Director Not Starting
-url: /2010/12/21/vcloud-director-not-starting/
 ---
 
 Attempted to bring up vCD and saw the following in `vcloud-container-debug.log`

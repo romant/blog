@@ -13,7 +13,6 @@ tags:
   - management
   - vmware
 title: The state of private cloud
-url: /2010/06/25/the-state-of-private-cloud/
 ---
 
 <figure>

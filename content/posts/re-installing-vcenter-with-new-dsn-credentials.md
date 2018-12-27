@@ -8,7 +8,6 @@ dsq_thread_id:
 excerpt: How to clear MSDB Database jobs so that vCenter can re-use the an ODBC connection after a previous owner.
 guid: http://www.romant.net/?p=285
 id: 285
-permalink: /technology/re-installing-vcenter-with-new-dsn-credentials/
 tags:
   - job_name
   - msdb
@@ -17,7 +16,6 @@ tags:
   - vcenter
   - vmware
 title: Re-Installing vCenter with new DSN credentials
-url: /2010/01/13/re-installing-vcenter-with-new-dsn-credentials/
 ---
 
 If you're ever in a situation where you've moved the vCenter database, and have actually changed the login details for the database that the DSN points to, and you're using SQL Server. Then upon re-installing vCenter, you will be greeted with:

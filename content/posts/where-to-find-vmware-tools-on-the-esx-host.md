@@ -7,9 +7,7 @@ dsq_thread_id:
   - ''
 guid: http://blog.romant.net/?p=357
 id: 357
-permalink: /technology/where-to-find-vmware-tools-on-the-esx-host/
 title: Where to find VMware tools on the ESX host
-url: /2010/04/28/where-to-find-vmware-tools-on-the-esx-host/
 ---
 
 Whenever you update your host, there's a chance that VMware tools have been updated.

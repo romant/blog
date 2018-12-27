@@ -7,12 +7,9 @@ dsq_thread_id:
   - '413642666'
 guid: http://blog.romant.net/?p=879
 id: 879
-permalink: /travel/sa2011/big-slab-of-ice/
 tags:
   - glacier
 title: Big slab of ice
-image: /images/2011/09/MG_6744.jpg
-url: /2011/09/14/big-slab-of-ice/
 ---
 
 ![](/images/2011/09/MG_6744.jpg)

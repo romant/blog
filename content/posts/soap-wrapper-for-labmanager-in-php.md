@@ -8,14 +8,12 @@ dsq_thread_id:
 excerpt: SOAP wrapper for LabManager written in PHP
 guid: http://www.romant.net/?p=268
 id: 268
-permalink: /technology/soap-wrapper-for-labmanager-in-php/
 tags:
   - .net
   - labmanager 4.0
   - php
   - soap
 title: SOAP wrapper for LabManager written in PHP
-url: /2009/09/30/soap-wrapper-for-labmanager-in-php/
 ---
 
 LabManager is a great product for when you have to deal with provisioning of images in a hands-off fashion from the IT team. If you're already a vSphere shop, users don't need access to a vSphere client and can manage the lifecycle of their machines through the browser (Windows only though for the console).

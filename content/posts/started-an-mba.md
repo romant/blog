@@ -10,7 +10,6 @@ tags:
   - agsm
   - study
 title: So… I started an MBA
-url: /2013/10/20/started-an-mba/
 ---
 
 ![](/images/2013/10/Screen-Shot-2013-10-20-at-00.42.36-.png)

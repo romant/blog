@@ -8,7 +8,6 @@ tags:
   - cloud
   - vmware
 title: Cloud Bursting, a reality check
-url: /2012/04/18/cloud-bursting-a-reality-check/
 ---
 
 ![](/images/2012/04/cloud-unicorn.png)

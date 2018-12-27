@@ -8,13 +8,11 @@ dsq_thread_id:
 guid: http://blog.romant.net/?p=1102
 id: 1102
 image: /wp-content/uploads/2012/07/dynamodb_ssd.png
-permalink: /technology/teaching-ssds-to-sprint-the-marathon/
 tags:
   - latency
   - nand
   - ssd
 title: How AWS taught SSD's to sprint the marathon with DynamoDB
-url: /2012/07/02/teaching-ssds-to-sprint-the-marathon/
 ---
 
 [Graham](https://twitter.com/bortoelnino) spends a lot of his time tuning and finding the cause of performance issues on some of the largest WebSphere Portal installations. Inevitably during our recent conversation we turned the topic to SSD's, and performance considerations of database workloads atop.

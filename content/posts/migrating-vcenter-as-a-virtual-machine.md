@@ -8,7 +8,6 @@ dsq_thread_id:
 excerpt: 'What to expect and what actually happens when running and migrating a virtual vCenter '
 guid: http://www.romant.net/?p=311
 id: 311
-permalink: /technology/migrating-vcenter-as-a-virtual-machine/
 tags:
   - migration
   - storage
@@ -16,7 +15,6 @@ tags:
   - vmotion
   - vmware
 title: Migrating vCenter as a Virtual Machine
-url: /2010/01/25/migrating-vcenter-as-a-virtual-machine/
 ---
 
 The caveats of running vCenter within a VM has been written about to death. So I will mention only what I never found in those posts that is relevant to the environment within which I work:

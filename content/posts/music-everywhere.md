@@ -13,7 +13,6 @@ tags:
   - ubuntu
   - vmware
 title: Music Everywhere
-url: /2007/07/25/music-everywhere/
 ---
 
 As with everything, it's always about the amount of time and money you're willing to put in, in order to get what you want.

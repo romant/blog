@@ -9,7 +9,6 @@ tags:
   - flash
   - nand
 title: NAND is dead, long live NAND
-url: /2012/03/27/nand-is-dead-long-live-nand/
 ---
 
 A question was raised internally the other night, specifically looking at the balance between performance and reliability of NAND devices; asked as a result of a paper titled "The Bleak Future of NAND Flash Memory". I must admit, sensationalism and geek link-bait executed to perfection.

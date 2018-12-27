@@ -8,12 +8,10 @@ dsq_thread_id:
 guid: http://blog.romant.net/?p=957
 id: 957
 image: /wp-content/uploads/2011/10/MG_8009.jpg
-permalink: /travel/sa2011/lima-a-day-with-ze-germans/
 tags:
   - holiday
   - travel
 title: Lima, a day with zë Germans
-url: /2011/10/09/lima-a-day-with-ze-germans/
 ---
 
 That wonderful feeling of someone rummaging within the room when you're trying to sleep is further enhanced by small whispers in a foreign language. None other than the smoothest to the ear, like a broken chainsaw - German.

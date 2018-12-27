@@ -7,13 +7,11 @@ dsq_thread_id:
   - '16198324'
 guid: http://www.romant.net/windows/renaming-a-project-in-tfs/
 id: 75
-permalink: /technology/renaming-a-project-in-tfs/
 tags:
   - microsoft
   - Team Foundation Server
   - TFS
 title: Renaming a Project in TFS
-url: /2007/12/21/renaming-a-project-in-tfs/
 ---
 
 I’ve recently decided to try out Microsoft’s latest incarnation of Team Foundation Server; a document and code versioning, as well as defect tracking system for developers.

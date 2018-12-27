@@ -13,7 +13,6 @@ tags:
   - raid
   - syncback
 title: File Backup Strategy
-url: /2008/01/15/file-backup-strategy/
 ---
 
 Photos are the most precious material possession anyone owns, and should be the first to be saved in the case of a fire.

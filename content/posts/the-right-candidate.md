@@ -9,7 +9,6 @@ tags:
   - hiring
   - workplace
 title: The Right Candidate
-url: /2007/05/27/the-right-candidate/
 ---
 
 Reading a blog I follow: David J. Anderson [[Where's the Lemon ?](http://www.agilemanagement.net/Articles/Weblog/WherestheLemon.html)], got me thinking more about businesses choosing the right candidate for a particular role, and an experience I had with a Japanese gentleman once on a plane.

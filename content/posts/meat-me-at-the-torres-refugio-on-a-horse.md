@@ -7,14 +7,13 @@ dsq_thread_id:
   - '420794373'
 guid: http://blog.romant.net/?p=927
 id: 927
-image: /wp-content/uploads/2011/09/MG_7341.jpg
-permalink: /travel/sa2011/meat-me-at-the-torres-refugio-on-a-horse/
 tags:
   - camping
   - trekking
 title: Meat me at the Torres refugio on a horse
-url: /2011/09/21/meat-me-at-the-torres-refugio-on-a-horse/
 ---
+
+![](/images/2011/09/MG_7341.jpg)
 
 According to the local coffee shops raggy edition of the Lonely Planet’s “Chile”, Torres Del Paine has approximately 100,000 flower tramplers per year. An astounding number of wide-eyed gringos for any destination.
 

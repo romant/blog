@@ -7,9 +7,7 @@ dsq_thread_id:
   - '75453423'
 guid: http://www.romant.net/?p=225
 id: 225
-permalink: /technology/cli-wizard-for-websphere-portal-cumulativefix-installs/
 title: CLI Wizard for WebSphere Portal CumulativeFix Management
-url: /2009/08/08/cli-wizard-for-websphere-portal-cumulativefix-installs/
 ---
 
 The unfortunate side-effect of any enterprise-grade software is that it is difficult to manage. There are at least two reasons that I see for this:

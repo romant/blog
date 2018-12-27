@@ -53,3 +53,6 @@ enableRobotsTXT = true
     name = "Archive"
     url = "/posts/"
     weight = 10
+
+[permalinks]
+  posts = "/:year/:month/:title/"

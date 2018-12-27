@@ -8,14 +8,12 @@ dsq_thread_id:
 excerpt: ESX 4 kickstart and considerations for booting from SAN
 guid: http://blog.romant.net/?p=368
 id: 368
-permalink: /technology/esx-4-x-kickstart-and-booting-from-san/
 tags:
   - boot
   - kickstart
   - san
   - vmware
 title: ESX 4.x kickstart and booting from SAN
-url: /2010/05/08/esx-4-x-kickstart-and-booting-from-san/
 ---
 
 Kickstarts are wonderful. Simple and effective. The ability to automate the mundane installations for *nix all about. In my case, I need to automate the installation of hosts that will be booting from SAN.

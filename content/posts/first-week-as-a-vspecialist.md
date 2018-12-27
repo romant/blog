@@ -9,7 +9,6 @@ tags:
   - vspecialist
   - workplace
 title: First week as a vSpecialist
-url: /2010/08/20/first-week-as-a-vspecialist/
 ---
 
 #### Vblock Training

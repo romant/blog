@@ -9,11 +9,9 @@ excerpt: By default, no inbound SSH capability exists. In the video I show you h
 format: video
 guid: http://blog.romant.net/?p=581
 id: 581
-permalink: /technology/by-example-enabling-ssh-in-vshield-edge/
 tags:
   - vshield
 title: 'By Example: Enabling SSH in vShield Edge'
-url: /2011/01/07/by-example-enabling-ssh-in-vshield-edge/
 ---
 
 I wanted to learn more about how vShield Edge + Manager appliance works under the covers. By default, no inbound SSH capability exists. In the video I show you how you can enable it, so that you can extract the innards of the appliance, and hack away to create something beautiful.

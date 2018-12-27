@@ -14,7 +14,6 @@ tags:
   - script
   - webkit
 title: Get Nightly WebKit without SVN
-url: /2008/04/13/get-nightly-webkit-without-svn/
 ---
 
 ![](/images/2008/04/webkit-icon.png)

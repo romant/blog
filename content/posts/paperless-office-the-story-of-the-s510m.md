@@ -7,7 +7,6 @@ dsq_thread_id:
   - '16198407'
 guid: http://www.romant.net/?p=138
 id: 138
-permalink: /technology/paperless-office-the-story-of-the-s510m/
 tags:
   - apple
   - document scanner
@@ -17,7 +16,6 @@ tags:
   - paperless office
   - workplace
 title: Paperless office - the story of the S510M
-url: /2008/08/24/paperless-office-the-story-of-the-s510m/
 ---
 
 Going green? Or going neat? Get rid of that paper!
