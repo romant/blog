@@ -1,21 +1,18 @@
 ---
 title: "This Week I Learnt - 1"
 date: 2018-12-26T22:05:09+11:00
-featuredImg: ""
-# draft: true
+draft : true
 tags: 
   - tag
 ---
 
-{{% chart id="heart" width="1000" height="800" data="../../heart.csv" %}}
+{{% chart id="heart" width="800" height="500" data="heart.csv" %}}
 
 According to the blog's first post - I started in 2007. Vast majority of the published ( and those died in draft form ) were a result of trying to fix things I came upon and learnings; be it automating WebSphere deployment 😜, or a GPS logger's integration with Lightroom.
 
 For a few years now, I have remained mum, and only seldomly post to Twitter, and perhaps once / twice per year to FB.
 
 Time for a shakeup.
-
-<!-- Every year for the last 5, given the quiet time in the office I use the latter part of December, and early January as a mini technical sabbatical which typically includes coding, reading, and hopefully some purposeful thinking; all with significant hours thrown in for immersion. -->
 
 Here are a few things I learnt this week.
 
@@ -48,11 +45,11 @@ Went through Kelsey's [Kubernetes The Hard Way]( https://github.com/kelseyhighto
 
 ## Visualising Apple Health Data
 
-After quite a quite poor run with [James](https://twitter.com/james65535), I decided to see how I went on the trusty phone, since Apple ⌚ tracks all movements. Quickly realising this is an opportunity for a post-dinner mini project.
+After quite a quite poor run with [James](https://twitter.com/james65535), I decided to see how I went on the trusty phone, since Apple ⌚ tracks all movement. Quickly realising this is an opportunity for a post-dinner mini project.
 
 The team at [Test-Driven Data Analysis](http://www.tdda.info/in-defence-of-xml-exporting-and-analysing-apple-health-data) does an excellent job of showing how you can get the data off the watch, but most importantly convert it from XML to something more usable.
 
-Once you have the CSV, is when the fun begins.
+Once you have the CSV, the fun begins.
 
 Listing your `apple_health_export` at this point should present you with :
 
@@ -79,7 +76,7 @@ Listing your `apple_health_export` at this point should present you with :
 497B Height.csv
 ```
 
-For the purpose of now generating the below with [ChartJS](https://www.chartjs.org/) all you need to do :
+For the purpose of generating the headline graphic with [ChartJS](https://www.chartjs.org/) all you need to do :
 
 Create a new Hugo Layout Shortcode
 
@@ -109,5 +106,3 @@ dataPoints = _.map(data, 'value');
 ```
 
 Add [chart.html](https://gist.github.com/romant/e7262a5b9e2f3b9e2bc0ac8c46a1282e)
-
-## Running 

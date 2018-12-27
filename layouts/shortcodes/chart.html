@@ -10,9 +10,10 @@
     var rawCSV = '{{ (.Get "data") }}'
 
     var data, labels, dataPoints;
+    var config;
 
     function drawCanvas() {
-        var config = {
+        config = {
             type: 'line',
             scaleFontColor: 'red',
             data: {
