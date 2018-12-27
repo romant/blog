@@ -10,6 +10,7 @@ id: 879
 tags:
   - glacier
 title: Big slab of ice
+image: /images/2011/09/MG_6744.jpg
 ---
 
 ![](/images/2011/09/MG_6744.jpg)
