@@ -1,13 +1,10 @@
 ---
-author: Roman Tarnavski
 categories:
   - technology
 date: 2009-04-20 14:38:05
 dsq_thread_id:
   - '75453331'
-excerpt: 'Converting a VMWare image results in "FAILED: The object or item referred to could not be found". Included are the steps that will enable the conversion to complete successfully.
-
-  '
+excerpt: 'Converting a VMWare image results in "FAILED: The object or item referred to could not be found". Included are the steps that will enable the conversion to complete successfully.'
 guid: http://www.romant.net/?p=205
 tags:
   - esx
