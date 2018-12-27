@@ -11,6 +11,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 googleAnalytics = "UA-591321-1"
 # disqusShortname = "romant"
 enableRobotsTXT = true
+removePathAccents=true
 
 [author]
   name = "Roman Tarnavski"
