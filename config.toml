@@ -9,7 +9,7 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Attribution-NonCommercial-ShareAlike 4.0 International License."
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 googleAnalytics = "UA-591321-1"
-disqusShortname = "romant"
+# disqusShortname = "romant"
 enableRobotsTXT = true
 
 [author]
@@ -30,8 +30,7 @@ enableRobotsTXT = true
 
   homeSubtitle = "hilariously not funny"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  # gitUrl = "https://github.com/Someone/SomeRepo/commit/" # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  justifyContent = false  # Set "text-align: justify" to .content, requires extended version of Hugo
+  justifyContent = false
 
   [[params.social]]
     name = "twitter"
