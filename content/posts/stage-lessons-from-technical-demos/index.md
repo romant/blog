@@ -50,7 +50,7 @@ Later in the day, during lunch - I had a Solutions Architect from the US, th
 From the slides, to the terminal to the text editor font size - the night prior, during ( our first rehearsal with all participants ), all of those were adjusted specifically to fit with the room, and the distance people would sit away from the screens. Perhaps a little 😅 OCD, but not only was the work justified after the comment from our stateside comrade, but these small, seemingly inconsequential changes and mannerisms make an enormous difference to helping people follow and understand what is being shown.
 
 <figure>
-  <img src="techsummit-grant.jpeg">
+  <img src="techsummit-grant.jpg">
   <figcaption>night before rehearsal | Grant - 'I have not slept for these many nights preparing this demo'</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ Only by explaining the history, will the majority be able to truly appreciate an
 
 >  - Antoine de Saint-Exupery
 
-![](techsummit-macaque .jpg)
+![](techsummit-macaque.jpg)
 
 James' pragmatism always brought us back to our focal area - "at the end of this session we wish to demonstrate" :
 
