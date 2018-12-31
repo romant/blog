@@ -11,8 +11,8 @@ guid: http://blog.romant.net/?p=623
 id: 623
 tags:
   - filevault 2
-  - lion
   - mac
+  - wde
   - pgp
 title: PGP WDE vs. Lion Disk Encryption
 ---
