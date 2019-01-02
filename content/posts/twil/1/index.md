@@ -1,57 +1,84 @@
 ---
-title: "This Week I Learnt - 1"
-date: 2018-12-26T22:05:09+11:00
-draft : true
-tags: 
-  - tag
+title: "New Year's Start"
+date: 2019-01-02T15:03:09+11:00
+categories :
+  - technology
+tags:
+  - apple health
+  - kubernetes
+  - blogging
+  - mac
+  - twil
+
 ---
 
-{{% chart id="heart" width="800" height="500" data="heart.csv" %}}
+{{< chart id="heart" width="800" height="500" title="First Day of Data From the Apple Watch in 2015" data="heart.csv" >}}
 
-According to the blog's first post - I started in 2007. Vast majority of the published ( and those died in draft form ) were a result of trying to fix things I came upon and learnings; be it automating WebSphere deployment 😜, or a GPS logger's integration with Lightroom.
+According to the blog's [first post]({{< ref "in-the-beginning.md" >}}) - I began in 2007. Vast majority of the published ( and those that died in draft form ) were a result of trying to fix things I came upon, and the associated learnings: be it automating WebSphere deployment 😜 or a GPS logger's integration with Lightroom.
 
-For a few years now, I have remained mum, and only seldomly post to Twitter, and perhaps once / twice per year to FB.
-
-Time for a shakeup.
-
-Here are a few things I learnt this week.
+Here are a few new things I learnt week.
 
 ## Wordpress Migration 
-I killed my WordPress hosting sometime in early '18, and just archived the content. Upon a number of conversations early on with [@Grant](https://twitter.com/grantorchard) - I contemplated a conversion to Jekyll. But did not have the drive at the time to make the leap.
+I killed my WP hosting sometime in early '18, and just archived the content. Upon a number of conversations early on with [Grant](https://twitter.com/grantorchard) - I contemplated a conversion to Jekyll. But did not have the drive at the time to make the leap. So the WP archive to Jekyll '.md zip' sat there for ~6 months.
 
-Ended up moving the WP archive to Jekyll, which sat there for about 6 months, and a few days ago over lunch I had a quick perusal of static generators and the associated ecosystem trajectories. Picked Hugo.
+A few days ago over lunch I had a quick perusal of static generators, and their associated ecosystem trajectories. Picked Hugo as the path forward.
 
 **The Good**
 
-- Hugo is ⚡️ FAST
-- Hugo's Go Templating Language - reminds me of Handlebars
+- Hugo's build, and validation is ⚡️ FAST, and Go's Templating Language reminds me of HandlebarsJS. Fact that Hugo has limited theming & customisations is a boon to focus and productivity
+- Markdown everywhere 😍
 
 **The ~~Broken~~ Still In Limbo**
 
-- Should have really got the SEO sorted out first prior to jumping
+- Hugo's Customisation
+  - Alebit limited in themes and out of the box iintegrations ( a matter of time ) means in some instances like SEO, when you hit roadblocks - you have to design or add them yourself. Plus I really should have got the redirects sorted out prior to changing the structure
+- Authoring Experience
+  - Should not have match the quality, and fidelity of what Medium.com has created - but it has set the standard of what is possible in the browser for content creation and curation
+- Decisions on Image optimisation
+  - ie. LQIP, Progressive JPEG re-encoding
+  - CDNs vs DAMs vs localised imagemagick
+- LD-JSON content extension and integration
 - Figuring out when to stop.. do I really need to write a custom Hugo shortcode to display Apple Watch HR data ?
 
 ## Netlify
-- Few companies I come across, and after even cursory view I keep digging. [Netlify](https://netlify.com) has some notable pedigree from Github, Docker, Serverless but most importantly looking at the UX of their product highlights to me how well they've thought through the landscape of customer demands, competitors' ability and are now navigating it all.
 
-## tmux
+Immediately upon stumbling across [Netlify](https://netlify.com), they piqued my interest. They have some notable pedigree from Github, Docker, Serverless but most importantly I love the user experience of their product: a streamlined barebones application platform. They have thought through the [landscape of customer demands](https://medium.com/netlify/how-netlifys-deploying-and-routing-infrastructure-works-c90adbde3b8d), competitors' ability, and are now navigating accordingly. Just when you started to think that application hosting, and delivery is a done deal with same set of tools throughout, Netlify re-applies the pattern atop a highly optimising storage, and service coupling back-end to provide a very differentiated out of the box experience. 
 
-Ugh. After an intense week of pure Kubernetes work, it was starting to be a pain to easily monitor deployments, state of hosts, and trying to script several scale and failover scenarios. Constant Terminal.app switching was inevitable. Jetisoning my love of `screen` it was time to adjust.
+## tmux & Kubernetes
 
-// insert screenshot of tmux & k8s
+After an immersive week of Kubernetes deployments, and some [Wavefront](http://wavefront.com), it was starting to be a pain to easily monitor the K8s state whilst trying to script several scaling and failover scenarios. Constant Terminal.app switching was inevitable. Jetisoning my love of `screen` it was time to adjust.
 
-<!-- ## Kubernetes Material
-Went through Kelsey's [Kubernetes The Hard Way]( https://github.com/kelseyhightower/kubernetes-the-hard-way) again, and also through LFS258. No matter  -->
+After a little bit of prodding tmux with panels for logs, hosts, deployments, services .. ugh ..
+
+or I could have just used [kubebox](https://github.com/astefanutti/kubebox) 🤷‍♂️
+
+![](kubebox.png)
 
 ## Visualising Apple Health Data
 
-After quite a quite poor run with [James](https://twitter.com/james65535), I decided to see how I went on the trusty phone, since Apple ⌚ tracks all movement. Quickly realising this is an opportunity for a post-dinner mini project.
+### TL;DR Version
+
+Add [chart.html](https://gist.github.com/romant/e7262a5b9e2f3b9e2bc0ac8c46a1282e) to your `layouts/shortcodes` folder.
+
+Within your content use:
+
+```js
+{{</* chart id="meh" width="800" height="500" title="keh" data="heart.csv" */>}}
+```
+
+### The Step-by-Step
+
+After a quite poor run with [James](https://twitter.com/james65535), I decided to see how I went on the trusty phone, since Apple ⌚ tracks all movement. Quickly realised this is an opportunity for a post-dinner mini project.
+
+Lets walk through how to create the headline graphic with [ChartJS](https://www.chartjs.org/) in Hugo.
+
+### Get The Data
 
 The team at [Test-Driven Data Analysis](http://www.tdda.info/in-defence-of-xml-exporting-and-analysing-apple-health-data) does an excellent job of showing how you can get the data off the watch, but most importantly convert it from XML to something more usable.
 
-Once you have the CSV, the fun begins.
+The fun starts once you have the CSVs.
 
-Listing your `apple_health_export` at this point should present you with :
+Listing the generated `apple_health_export` at this point should present you with :
 
 ```c
 1.3G export.xml
@@ -76,33 +103,23 @@ Listing your `apple_health_export` at this point should present you with :
 497B Height.csv
 ```
 
-For the purpose of generating the headline graphic with [ChartJS](https://www.chartjs.org/) all you need to do :
+### Create the Hugo Chart JS Layout Shortcode
 
-Create a new Hugo Layout Shortcode
+The inside of HeartRate.csv looks like this the following, multipled by hundreds of thousands of rows. So pick a subsection.
 
-```sh
-mkdir -p layouts/shortcodes
-```
+| sourceName | endDate | more | value
+| :------------ | :-------------: | :-------------:| ------------: |
+| Roman's Apple Watch      | 2015-05-22 13:05:21 +1100 | .. |       81 |
+| Roman's Apple Watch      |    2015-05-22 13:43:56 +1100 | .. |         65 |
 
-Charts themselves are quite straight forward, but you'll need to map the data first through
+Charts themselves are quite straight forward, but you will need to map the data first
 
-In their native form they sit as..
+Recommended some dirty cut or awk magic, and cleanup if you're going to be sharing / exporting, as naturally it does have your Watch's identifier included.
 
-```csv
-sourceName,sourceVersion,device,type,unit,creationDate,startDate,endDate,value
-"Roman's Apple Watch",,"<<HKDevice: 0x2812d08c0>, name:Roman's Apple Watch, manufacturer:Apple, model:Watch1,2, localIdentifier:com.apple.health.some_long_identifier_string>","HeartRate","count/min",2015-05-22 13:05:21 +1100,2015-05-22 13:03:49 +1100,2015-05-22 13:03:49 +1100,81
-"Roman's Apple Watch",,"<<HKDevice: 0x2812d0cd0>, name:Roman's Apple Watch, manufacturer:Apple, model:Watch1,2, localIdentifier:com.apple.health.some_long_identifier_string>","HeartRate","count/min",2015-05-22 13:43:56 +1100,2015-05-22 13:43:49 +1100,2015-05-22 13:43:49 +1100,65
-```
-..yea - not pretty, and that's only two points.
-
-some `cut` magic and cleanup recommended, as naturally it does have your Watch's identifier included. I have just left the `endDate` and `value`.
-
-From here you'll need to map it to distinct `dataPoints` and `labels` Arrays for injestion by the `ChartJS` library.
+Using lodash, map it to distinct `dataPoints`, and `labels` Arrays for injestion by ChartJS.
 
 ```js
 data = $.csv.toObjects(response);
 labels = _.map(data, 'endDate');
 dataPoints = _.map(data, 'value');
 ```
-
-Add [chart.html](https://gist.github.com/romant/e7262a5b9e2f3b9e2bc0ac8c46a1282e)
