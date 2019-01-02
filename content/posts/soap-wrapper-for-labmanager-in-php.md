@@ -8,7 +8,6 @@ excerpt: SOAP wrapper for LabManager written in PHP
 guid: http://www.romant.net/?p=268
 id: 268
 tags:
-  - .net
   - labmanager 4.0
   - php
   - soap
