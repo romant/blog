@@ -1,5 +1,4 @@
 ---
-author: Roman Tarnavski
 categories:
   - reflection
 date: 2010-06-25 07:16:25

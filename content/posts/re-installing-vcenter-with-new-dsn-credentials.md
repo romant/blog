@@ -1,5 +1,4 @@
 ---
-author: Roman Tarnavski
 categories:
   - technology
 date: 2010-01-13 12:57:56

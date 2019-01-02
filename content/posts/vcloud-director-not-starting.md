@@ -1,11 +1,10 @@
 ---
-author: Roman Tarnavski
 categories:
   - technology
 date: 2010-12-21 14:26:23
 dsq_thread_id:
   - '194874346'
-excerpt: 'The ''Could not bind network port'' issue fixed when starting vCloud Director '
+excerpt: The ''Could not bind network port'' issue fixed when starting vCloud Director
 guid: http://blog.romant.net/?p=529
 id: 529
 tags:

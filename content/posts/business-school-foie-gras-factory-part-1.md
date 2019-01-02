@@ -9,7 +9,7 @@ format: image
 id: 1256
 image: /images/2014/10/i-robot-2004-42-g1.jpg
 title: Is a Business School, a foie gras Factory?
-description : "the pursuit of an MBA reveals a hidden lesson in the corporate education schemes"
+description : the pursuit of an MBA reveals a hidden lesson in the corporate education schemes
 tags:
   - mba
   - study

@@ -1,5 +1,4 @@
 ---
-author: Roman Tarnavski
 categories:
   - other
 date: 2013-10-20 00:00:13

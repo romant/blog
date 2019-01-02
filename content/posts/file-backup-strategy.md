@@ -1,5 +1,4 @@
 ---
-author: Roman Tarnavski
 categories:
   - photography
   - technology

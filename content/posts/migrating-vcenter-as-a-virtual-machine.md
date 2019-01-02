@@ -1,11 +1,10 @@
 ---
-author: Roman Tarnavski
 categories:
   - technology
 date: 2010-01-25 21:40:57
 dsq_thread_id:
   - '75453372'
-excerpt: 'What to expect and what actually happens when running and migrating a virtual vCenter '
+excerpt: What to expect and what actually happens when running and migrating a virtual vCenter
 guid: http://www.romant.net/?p=311
 id: 311
 tags:

@@ -1,10 +1,8 @@
 ---
-author: Roman Tarnavski
 categories:
   - technology
 date: 2010-07-11 02:35:22
-dsq_thread_id:
-  - '299824306'
+dsq_thread_id: 299824306
 excerpt: A tutorial on how to configure NAT within VMware ESX and ESXi
 guid: http://blog.romant.net/?p=447
 id: 447

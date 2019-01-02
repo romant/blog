@@ -1,5 +1,4 @@
 ---
-author: Roman Tarnavski
 categories:
   - South America 2011
 date: 2011-09-14 05:59:53

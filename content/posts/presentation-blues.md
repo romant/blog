@@ -1,5 +1,4 @@
 ---
-author: Roman Tarnavski
 categories:
   - workplace
 date: 2011-06-24 23:28:01

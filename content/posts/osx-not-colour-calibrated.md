@@ -1,5 +1,4 @@
 ---
-author: Roman Tarnavski
 categories:
   - photography
 date: 2008-03-20 14:50:23

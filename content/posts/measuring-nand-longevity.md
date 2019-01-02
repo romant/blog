@@ -1,5 +1,4 @@
 ---
-author: Roman Tarnavski
 date: 2012-03-03 10:13:11
 dsq_thread_id:
   - '639204668'

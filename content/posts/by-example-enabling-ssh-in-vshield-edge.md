@@ -1,5 +1,4 @@
 ---
-author: Roman Tarnavski
 categories:
   - technology
 date: 2011-01-07 21:54:10
@@ -11,7 +10,7 @@ guid: http://blog.romant.net/?p=581
 id: 581
 tags:
   - vshield
-title: 'By Example: Enabling SSH in vShield Edge'
+title: "By Example: Enabling SSH in vShield Edge"
 ---
 
 I wanted to learn more about how vShield Edge + Manager appliance works under the covers. By default, no inbound SSH capability exists. In the video I show you how you can enable it, so that you can extract the innards of the appliance, and hack away to create something beautiful.
