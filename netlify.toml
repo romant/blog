@@ -24,3 +24,23 @@ command = "hugo --gc --minify -b $DEPLOY_PRIME_URL --enableGitInfo"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.52"
+
+[[redirects]]
+    from = "/tag/:slug"
+    to = "/tags/:slug"
+    status = 301
+
+[[redirects]]
+    from = "/category/:slug"
+    to = "/categories/:slug"
+    status = 301
+
+[[redirects]]
+    from = "/tag"
+    to = "/tags"
+    status = 301
+
+[[redirects]]
+    from = "/category"
+    to = "/categories"
+    status = 301
