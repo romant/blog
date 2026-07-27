@@ -22,7 +22,7 @@ Am currently working on automating WebSphere Portal install on Windows. I do not
 
 What I require is to add the VMware Video drivers to the base Windows installation. This will work for XP/Windows 2003. You can easily integrate the drivers once you've found them with the use of nLite. The trick is in finding them.
 
-First thing you'll need is the [VMware Tools ISO](http://blog.romant.net/vmware/where-to-find-http://blog.romant.net/vmware-tools-on-the-esx-host/) that we discovered a couple posts back. 
+First thing you'll need is the [VMware Tools ISO](/2010/04/where-to-find-vmware-tools-on-the-esx-host/) that we discovered a couple posts back. 
 
 <figure>
   <img src="/images/2010/05/exploded_iso.png">

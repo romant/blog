@@ -31,7 +31,7 @@ A few days ago over lunch I had a quick perusal of static generators, and their 
 **The ~~Broken~~ Still In Limbo**
 
 - Hugo's Customisation
-  - Alebit limited in themes and out of the box iintegrations ( a matter of time ) means in some instances like SEO, when you hit roadblocks - you have to design or add them yourself. Plus I really should have got the redirects sorted out prior to changing the structure
+  - Albeit limited in themes and out of the box iintegrations ( a matter of time ) means in some instances like SEO, when you hit roadblocks - you have to design or add them yourself. Plus I really should have got the redirects sorted out prior to changing the structure
 - Authoring Experience
   - Should not have match the quality, and fidelity of what Medium.com has created - but it has set the standard of what is possible in the browser for content creation and curation
 - Decisions on Image optimisation

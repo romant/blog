@@ -32,4 +32,4 @@ Having the PK number, we are easily able to cut/awk and pass this to the trusty 
 
 The installation is much the same, although you must first obtain the PK jar. In the office we have a build server that spits them out in (in zips with the readme). So the script first of all gives a listing of available CF's to install, and then when you choose the appropriate zip, it will download it and install.
 
-You can [download the complete script](http://blog.romant.net/wp-content/uploads/2009/08/cf_install.sh), and let me know if you have any issues. I thought of distributing this on Google Code, so others that deal with Portal can extend it, as Portal's Java GUI leaves much to be desired.
+You can download the complete script *(no longer available)*, and let me know if you have any issues. I thought of distributing this on Google Code, so others that deal with Portal can extend it, as Portal's Java GUI leaves much to be desired.
