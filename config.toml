@@ -19,13 +19,11 @@ removePathAccents = true
   tag = "tags"
   category = "categories"
 
-# hermit-V2 gates scroll-to-top and read time on a per-page front matter flag
-# as well as the site param. Cascade turns them on for every post rather than
-# editing 55 files.
+# hermit-V2 gates scroll-to-top on a per-page front matter flag as well as the
+# site param. Cascade turns it on for every post rather than editing 55 files.
 [[cascade]]
   [cascade.params]
     scrolltotop = true
-    readTime = true
   [cascade._target]
     kind = "page"
 
@@ -47,6 +45,7 @@ removePathAccents = true
   scrollToTop      = true
   shareSocial      = true
   pinned           = "Pinned Posts"
+  legacyLayout     = true
 
   [params.author]
     name = "Roman Tarnavski"
