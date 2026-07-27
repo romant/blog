@@ -1,0 +1,41 @@
+{{/* Override of the theme's home.html.
+     Identical to themes/hermit-v2/layouts/home.html except for #home-nav,
+     which links to the most recent post instead of rendering the main menu. */}}
+{{ define "head" }}
+	{{ if .Site.Params.bgImg -}}
+	<style>.bg-img {background-image: url('{{.Site.Params.bgImg}}');}</style>
+	{{- else if .Site.Params.images -}}
+		{{- range first 1 .Site.Params.images -}}
+		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
+		{{- end -}}
+	{{- end -}}
+{{ end }}
+
+{{ define "main" }}
+	{{- if (or .Site.Params.images .Site.Params.bgImg) }}
+	<div class="bg-img"></div>
+	{{- end }}
+	<div id="spotlight" {{- if ne false .Site.Params.usesAnimation }} class="animated fadeIn" {{- end -}}>
+		<div id="home-center">
+			<h1 id="home-title">{{ .Site.Title }}</h1>
+			{{- with .Site.Params.homeSubtitle }}
+			    <div id="typewriter-container">
+        			<p id="home-subtitle">{{.}}</p>
+    			</div>
+			{{- end }}
+			{{- with .Site.Params.socialLinks }}
+			<div id="home-links">
+				{{ partialCached "social-icons.html" . }}
+			</div>
+			{{- end }}
+			<nav id="home-nav" class="site-nav">
+				{{- with first 1 (where .Site.RegularPages "Section" "posts") }}
+					{{- range . }}
+					<a href="{{ .Permalink }}">Latest Post</a>
+					{{- end }}
+				{{- end }}
+			</nav>
+		</div>
+		<div id="home-footer">{{- if templates.Exists "_partials/index-footer.html" -}}{{- partialCached "index-footer.html" . -}}{{- else -}}{{- partial "footer.html" . -}}{{- end -}}</div>
+	</div>
+{{ end }}

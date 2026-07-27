@@ -1,0 +1,63 @@
+// Site-specific styling, imported last by the theme's style.scss so these
+// rules win over everything above them.
+//
+// This file carries over the visual customisations that used to live as
+// patches inside the romant/hermit fork. Keeping them here means the theme
+// in themes/hermit-v2/ stays pristine and can be replaced wholesale.
+
+// --- Palette ---------------------------------------------------------------
+// hermit-V2 ships a grey (#494f5c) background and #eee text. Restore the
+// midnight blue and muted body text the site has always used.
+html {
+  background: #2c3e50;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+a {
+  color: #c6cddb;
+}
+
+// --- Typography ------------------------------------------------------------
+// Roboto/system stack at thin weight, replacing the theme's Trebuchet stack.
+body,
+button,
+input,
+select,
+textarea {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 100;
+}
+
+// With body text at weight 100, the theme's `bolder` resolves to only 400 and
+// emphasis becomes invisible. Force real bold.
+b,
+strong {
+  font-weight: bold;
+}
+
+// --- Blockquotes -----------------------------------------------------------
+// Hairline rule and dimmed text instead of the theme's heavy bar and italics.
+blockquote {
+  border-left: .01em solid #888;
+  color: #c6cddbb8;
+  font-style: normal;
+}
+
+// --- Header ----------------------------------------------------------------
+.hdr-wrapper .site-branding {
+  font-weight: bolder;
+}
+
+// --- Post title ------------------------------------------------------------
+.post-header h1 {
+  font-weight: bold;
+}
+
+// --- Figure captions -------------------------------------------------------
+.content figure {
+  font-size: smaller;
+}

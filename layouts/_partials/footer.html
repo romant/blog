@@ -1,0 +1,13 @@
+{{/* Site footer for list, taxonomy, single and post pages.
+     The <footer id="site-footer"> wrapper is supplied by the calling template,
+     so this partial emits inner content only.
+     Homepage uses index-footer.html instead. */}}
+<p>&copy; {{ now.Format (default "2006" .Site.Params.dateform.CopyrightDate) }}
+	<a href="{{ .Site.BaseURL }}">{{ lower .Site.Params.author.name }}</a>
+	{{ .Site.Params.footerCopyright | safeHTML }}
+</p>
+<p>
+	Made w/
+	<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; &amp; <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit</a> &#183;
+	<a href="{{ "posts/index.xml" | absURL }}" target="_blank" title="rss">{{- partial "svg.html" (dict "context" . "name" "rss") -}}</a>
+</p>

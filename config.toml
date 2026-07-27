@@ -19,10 +19,34 @@ removePathAccents = true
   tag = "tags"
   category = "categories"
 
+# hermit-V2 gates scroll-to-top and read time on a per-page front matter flag
+# as well as the site param. Cascade turns them on for every post rather than
+# editing 55 files.
+[[cascade]]
+  [cascade.params]
+    scrolltotop = true
+    readTime = true
+  [cascade._target]
+    kind = "page"
+
 [params]
   homeSubtitle = "hilariously not funny"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   justifyContent = false
+
+  # Palette. Background and body text are set in assets/scss/_userstyles.scss;
+  # these two are the values the theme reads directly.
+  themeColor  = "#2c3e50"
+  accentColor = "#018574"
+
+  # Render the home subtitle statically rather than typing it out.
+  homeSubtitlePrinter = false
+
+  # hermit-V2 features
+  code_copy_button = true
+  scrollToTop      = true
+  shareSocial      = true
+  pinned           = "Pinned Posts"
 
   [params.author]
     name = "Roman Tarnavski"
@@ -33,6 +57,18 @@ removePathAccents = true
     ShortDate      = "Jan 2"
     NumDateShort   = "2006-01-02"
     NumDateLong    = "2006-01-02 15:04 -0700"
+
+  [params.pages]
+    relatedPosts      = true
+    readTimeSeparator = "… ⏲ Reading Time:"
+    lastUpdatedOn     = "Last updated on: "
+    LastmodOpen       = "["
+    LastmodClose      = "]"
+
+  [params.gallery]
+    enable = true
+    width  = "300"
+    layout = "grid"
 
   [[params.socialLinks]]
     name = "twitter"
