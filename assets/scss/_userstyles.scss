@@ -61,3 +61,70 @@ blockquote {
 .content figure {
   font-size: smaller;
 }
+
+// --- Links -----------------------------------------------------------------
+// accentColor is set to the body text colour, so links carry no hue and are
+// distinguished by the underline alone.
+.content a {
+  box-shadow: inset 0 -1px #c6cddb;
+}
+
+// The theme fills the link with the accent on hover. Now that the accent
+// equals the text colour that would be invisible, so invert the text instead.
+.content a:hover {
+  color: #2c3e50;
+}
+
+// accentColor also drives <mark>'s background, where the theme's #eee
+// foreground would now be unreadable. Unused today, but cheap to get right.
+mark {
+  color: #2c3e50;
+}
+
+// --- Code blocks -----------------------------------------------------------
+// Code shares the page background, so a single hairline on the right separates
+// it from prose. Blockquotes carry the equivalent rule on the left, so the two
+// are told apart by side alone, without either needing a colour.
+// border-radius is set on .highlight pre by the theme. It is invisible there
+// (the block shares the page background) but curls the ends of the rule above,
+// so square it off.
+.content pre {
+  border-right: 1px solid #888;
+  border-radius: 0;
+}
+
+// code-copy.js appends the button as the last child of .highlight, after <pre>.
+// The theme then absolutely positions it over the bottom-right of the code,
+// where it covers long lines. Returning it to normal flow drops it below the
+// block, which is where it belongs; no JS change needed.
+.highlight-copy-btn {
+  position: static;
+  display: block;
+  margin: .4em 0 0 auto;
+}
+
+// Monochrome syntax highlighting: drop every token colour, then reintroduce
+// structure through slope and weight alone.
+//
+// Specificity matters here. The theme's 58 token rules are all `.chroma .x`,
+// i.e. (0,2,0). A selector like `.chroma code span` is only (0,1,2) and loses
+// to every one of them no matter how late it appears. `.content .chroma span`
+// is (0,2,1) and wins.
+.content .chroma span {
+  color: inherit;
+}
+
+// .err is the only token carrying a background as well as a colour.
+.content .chroma .err {
+  background-color: transparent;
+}
+
+.chroma code {
+  .c, .ch, .cm, .c1, .cs, .cp, .cpf {   // comments
+    font-style: italic;
+  }
+
+  .k, .kc, .kd, .kn, .kp, .kr, .kt {    // keywords
+    font-weight: bold;
+  }
+}
