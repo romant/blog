@@ -1,50 +1,52 @@
 baseURL = "https://www.romant.net"
-languageCode = "en-us"
+locale = "en-us"
 defaultContentLanguage = "en"
 title = "RomanT.net"
-theme = "hermit"
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
+theme = "hermit-v2"
 copyright = "This work is licensed under a Attribution-NonCommercial-ShareAlike 4.0 International License."
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-googleAnalytics = "UA-591321-1"
-# disqusShortname = "romant"
 enableRobotsTXT = true
-removePathAccents=true
+removePathAccents = true
 
-[author]
-  name = "Roman Tarnavski"
-
-[blackfriday]
-  hrefTargetBlank = true
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true   # posts use raw <figure>/<img> HTML; without this they are stripped
+  [markup.highlight]
+    codeFences = true
+    noClasses = false
 
 [taxonomies]
   tag = "tags"
   category = "categories"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
   homeSubtitle = "hilariously not funny"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   justifyContent = false
 
-  [[params.social]]
+  [params.author]
+    name = "Roman Tarnavski"
+
+  [params.dateform]
+    CopyrightDate = "2006"
+    LongDate       = "Jan 2, 2006"
+    ShortDate      = "Jan 2"
+    NumDateShort   = "2006-01-02"
+    NumDateLong    = "2006-01-02 15:04 -0700"
+
+  [[params.socialLinks]]
     name = "twitter"
     url = "https://twitter.com/romant"
 
-  [[params.social]]
+  [[params.socialLinks]]
     name = "instagram"
     url = "https://instagram.com/romant"
 
-  [[params.social]]
+  [[params.socialLinks]]
     name = "github"
     url = "https://github.com/romant"
 
-  [[params.social]]
+  [[params.socialLinks]]
     name = "linkedin"
     url = "https://linkedin.com/in/tarnavski"
 
@@ -54,4 +56,4 @@ removePathAccents=true
     weight = 10
 
 [permalinks]
-  posts = "/:year/:month/:title/"
+  posts = "/:year/:month/:slug/"

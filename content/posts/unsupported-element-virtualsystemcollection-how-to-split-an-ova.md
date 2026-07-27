@@ -7,6 +7,7 @@ dsq_thread_id:
 excerpt: A look at the structure of an OVA+OVF and how to deploy a vApp on a single host without vCenter.
 guid: http://blog.romant.net/?p=477
 id: 477
+slug: unsupported-element-virtualsystemcollection-how-to-split-an-ova
 tags:
   - ova
   - ovf

@@ -5,6 +5,7 @@ date: 2007-09-01 01:15:28
 dsq_thread_id:
   - '16198308'
 id: 55
+slug: canon-eos-40d-mini-review-problems
 tags:
   - 17-85mm f4-5.6 IS USM
   - 300D

@@ -5,6 +5,7 @@ date: 2007-09-01 01:24:13
 dsq_thread_id:
   - '16198313'
 id: 57
+slug: canon-40d-lightroom-auto-rotate
 tags:
   - 40D
   - Lightroom
