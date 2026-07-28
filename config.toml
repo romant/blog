@@ -10,7 +10,7 @@ removePathAccents = true
 
 [markup]
   [markup.goldmark.renderer]
-    unsafe = true   # posts use raw <figure>/<img> HTML; without this they are stripped
+    unsafe = true
   [markup.highlight]
     codeFences = true
     noClasses = false
@@ -21,8 +21,8 @@ removePathAccents = true
 
 [related]
   threshold = 80
-  includeNewer = true   # archive is closed; early posts should reach later ones
-  toLower = true        # tags are inconsistently cased (40D vs 40d)
+  includeNewer = true
+  toLower = true
 
   [[related.indices]]
     name = "tags"
@@ -36,8 +36,6 @@ removePathAccents = true
     name = "date"
     weight = 10
 
-# hermit-V2 gates scroll-to-top on a per-page front matter flag as well as the
-# site param. Cascade turns it on for every post rather than editing 55 files.
 [[cascade]]
   [cascade.params]
     scrolltotop = true
@@ -49,26 +47,15 @@ removePathAccents = true
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   justifyContent = false
 
-  # Palette. Background and body text are set in assets/scss/_userstyles.scss;
-  # these two are the values the theme reads directly.
   themeColor  = "#2c3e50"
-  # Accent equals the body text colour: the site is monochrome and links are
-  # distinguished by their underline rather than by hue.
   accentColor = "#c6cddb"
 
-  # Render the home subtitle statically rather than typing it out.
   homeSubtitlePrinter = false
 
-  # hermit-V2 features
   code_copy_button = true
   scrollToTop      = true
-  # shareSocial off: the theme's share pane printed a literal "<nil>" into the
-  # share text for every post, and it is not a feature the site had before.
   shareSocial      = false
   pinned           = "Pinned Posts"
-
-  # listLayout deliberately unset: the archive stays a year-grouped list of
-  # titles and dates. Tried with tags and with categories; both crowd it.
   legacyLayout     = true
 
   [params.author]
@@ -89,7 +76,7 @@ removePathAccents = true
     LastmodClose      = "]"
 
   [params.gallery]
-    enable = true
+    enable = false
     width  = "300"
     layout = "grid"
 
